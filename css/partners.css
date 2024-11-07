@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-html { overflow-y: hidden; } 
-
 body{
     background-image: url(../img/bg/partners-bg.svg);
     background-size: cover;
@@ -53,10 +51,10 @@ h1{
     margin: 3rem;
 }
 
-.AKKAleft{
+.AKKAright{
     float: right;
     position: relative;
-    bottom: 19rem;
+    bottom: 15rem;
     margin: 5rem;
     width: 20%;
 }
