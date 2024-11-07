@@ -38,3 +38,32 @@ nav>a {
     border-radius: 48px;
     font-size: 1.1rem;
 }
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 3rem;
+    color: white;
+    -webkit-text-stroke: 0.07rem black;
+    display: flex;
+    width: 40%;
+    margin: 3rem;
+}
+
+.AKKAleft{
+    float: right;
+    position: relative;
+    bottom: 19rem;
+    margin: 5rem;
+    width: 20%;
+}
+
+.WISYbottom{
+    margin: 2rem;
+    margin-left: 15rem;
+}
+
+div>img{
+    width: 15rem;
+    height: auto;
+}
