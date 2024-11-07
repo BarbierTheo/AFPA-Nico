@@ -3,22 +3,23 @@
     padding: 0;
 }
 
-body{
+body {
     background-image: url(../img/bg/formation-bg.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0 5rem;
+    box-sizing: border-box;
 }
 
-.logo{
+.logo {
     float: left;
     margin-top: 0.2rem;
     margin-left: 10rem;
 }
 
-nav{
+nav {
     margin: 0 auto;
     clear: both;
     display: flex;
@@ -28,24 +29,80 @@ nav{
 
 }
 
-nav>a{
+nav>a {
     color: white;
     font-family: Arial Black, Helvetica, sans-serif;
     text-decoration: none;
-    background-color: #84AD21 ;
+    background-color: #84AD21;
     padding: 1.2rem;
     border-radius: 48px;
     font-size: 1.1rem;
 }
 
-h1{
+h1 {
     width: auto;
-    margin: 1rem;
+    margin: 1rem auto;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
     text-align: center;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(115,115,115,1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(115, 115, 115, 1) 100%);
     border-radius: 5%;
     max-width: 30vh;
+    width: 15%;
     padding: 2rem 1rem;
+
+}
+
+.maincontainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
     
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(115, 115, 115, 1) 100%);
+    border-radius: 2%;
+    padding: 2rem 1rem;
+}
+
+.left-top {}
+
+.left-bottom {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(115, 115, 115, 1) 100%);
+    border-radius: 2%;
+    padding: 2rem 1rem;
+}
+
+.right-top {}
+
+.right-bottom {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: white;
+}
+
+span{
+    line-height: 5rem;
+    margin-left: 3rem;
+    color: white;
 }

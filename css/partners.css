@@ -9,4 +9,32 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    margin: 0 5rem;
+    box-sizing: border-box;
+}
+
+.logo {
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 10rem;
+}
+
+nav {
+    margin: 0 auto;
+    clear: both;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    text-align: center;
+
+}
+
+nav>a {
+    color: white;
+    font-family: Arial Black, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: #84AD21;
+    padding: 1.2rem;
+    border-radius: 48px;
+    font-size: 1.1rem;
 }
