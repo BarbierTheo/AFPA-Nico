@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     background-image: url(../img/bg/interviews-bg.svg);
     background-size: cover;
     background-position: center;
@@ -11,6 +11,7 @@ body{
     height: 100vh;
     margin: 0 5rem;
     box-sizing: border-box;
+    background-color: #008C95;
 }
 
 .logo {
@@ -37,4 +38,179 @@ nav>a {
     padding: 1.2rem;
     border-radius: 48px;
     font-size: 1.1rem;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    color: white;
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 2rem;
+
+}
+
+h1 {
+    text-transform: capitalize;
+    color: white;
+    font-family: Arial black, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 2.5rem;
+    width: 40%;
+    margin-left: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+}
+
+/* CONTENEUR GAUCHE */
+
+.left {
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-height: 90vh;
+
+}
+
+.imgcontainerleft {
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgcontainerleft>img {
+    position: relative;
+    bottom: 8rem;
+}
+
+.lefttext>p {
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.lefttext {
+    margin-top: -11rem;
+}
+
+.nameleft {
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    width: 10%;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: -5.8rem;
+    left: -0.5rem;
+}
+
+/* CONTENEUR CENTRAL */
+
+.mid {
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0.5rem;
+    margin-top: 5rem;
+    max-height: 90vh;
+}
+
+.imgcontainermid {
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgcontainermid>img {
+
+    position: relative;
+    bottom: 8rem;
+}
+
+.midtext>p {
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.midtext {
+    
+    margin-top: -11rem;
+}
+
+.namemid {
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    width: 10%;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: -4rem;
+    left: -0.3rem;
+}
+
+/* CONTENEUR DROITE */
+
+.right {
+
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-height: 135vh;
+
+}
+
+.imgcontainerright {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.imgcontainerright>img {
+    position: relative;
+    bottom: 8rem;
+}
+
+.righttext>p {
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.righttext {
+    margin-top: -11rem;
+}
+
+.nameright {
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 0.63rem;
+    width: 10%;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: -1.5rem;
+    left: -1rem;
+
 }
