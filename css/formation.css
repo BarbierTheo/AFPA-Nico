@@ -9,4 +9,43 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    margin: 0 5rem;
+}
+
+.logo{
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 10rem;
+}
+
+nav{
+    margin: 0 auto;
+    clear: both;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    text-align: center;
+
+}
+
+nav>a{
+    color: white;
+    font-family: Arial Black, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: #84AD21 ;
+    padding: 1.2rem;
+    border-radius: 48px;
+    font-size: 1.1rem;
+}
+
+h1{
+    width: auto;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(115,115,115,1) 100%);
+    border-radius: 5%;
+    max-width: 30vh;
+    padding: 2rem 1rem;
+    
 }
