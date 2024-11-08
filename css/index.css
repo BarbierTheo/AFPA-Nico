@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     background-image: url(../img/bg/index-bg.svg);
     background-size: cover;
     background-position: center;
@@ -43,17 +43,21 @@ nav>a {
 
 main{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .right{
-    margin: 3rem;
-    width: 50%;
+    margin: 3rem 2rem;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
 }
 
 .left{
     display: flex;
     flex-direction: column;
+    width: 40%;
+    margin: 0 3rem;
 }
 
 
@@ -102,6 +106,7 @@ footer>h3{
     width: 10%;
     font-size: 1.3rem;
     -webkit-text-stroke: black 0.05rem;
+    margin: 0 4.5rem;
 }
 
 .logo-partners{
@@ -109,8 +114,8 @@ footer>h3{
     flex-direction: row;
     padding: 0.3rem 0;
     background-color: #84AD21;
-    max-width: 40%;
-    margin: 1rem 0;
+    max-width: 30%;
+    margin: 1rem 3.5rem;
     border-radius: 2rem;
 }
 
