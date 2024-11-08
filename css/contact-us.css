@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     background-image: url(../img/bg/contact-us-bg.svg);
     background-size: cover;
     background-position: center;
@@ -38,4 +38,70 @@ nav>a {
     padding: 1.2rem;
     border-radius: 48px;
     font-size: 1.1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+}
+
+.mid-center {
+    display: flex;
+    margin: 2rem;
+    padding: 3rem;
+    background: linear-gradient(90deg, #84AD21 0%, #FFFFFF 100%);
+    border-radius: 3rem;
+    box-shadow: 0.125rem 0.125rem 0.3125rem rgb(17, 17, 17);
+
+}
+
+strong {
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+strong span {
+    display: block;
+}
+
+.top-left {
+    margin: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(180deg, #84AD21 0%, #FFFFFF 100%);
+    border-radius: 3rem;
+    font-family: gotham black, Helvetica, sans-serif;
+    font-size: 2rem;
+
+}
+
+fieldset.gridform1{
+    display: grid;
+    grid-template-columns: 30rem 0.5fr;
+    gap: 1rem;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    border: 0.1rem solid black;
+    background-color: white;
+}
+
+input[type="radio"]:checked {
+    background-color: #000;
+}
+
+input[type="radio"]#demandeurd-emploi{;
+}
+
+.top-left>fieldset>legend {}
+
+.top-left>fieldset>label{
+
 }
