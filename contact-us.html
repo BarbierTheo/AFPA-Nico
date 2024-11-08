@@ -33,36 +33,38 @@
                 <fieldset class="gridform1">
                     <legend>Votre situation</legend>
                     <label for="demandeurd-emploi">
-                        Demandeur d'emploi
-                        <input type="radio" id="demandeurd-emploi" name="situation" value="demandeurd-emploi" required>
+                        • Demandeur d'emploi,
                     </label>
+                    <input type="radio" id="demandeurd-emploi" name="situation" value="demandeurd-emploi" required>
                     <label for="salarié">
-                        Salarié en transition professionnelle,
-                        <input type="radio" id="salarié" name="situation" value="salarié" required>
+                        • Salarié en transition professionnelle,
                     </label>
+                    <input type="radio" id="salarié" name="situation" value="salarié" required>
                     <label for="autre">
-                        Autre
-                        <input type="radio" id="autre" name="situation" value="autre" required>
+                        • Autre
                     </label>
+                    <input type="radio" id="autre" name="situation" value="autre" required>
+
                 </fieldset>
             </div>
+
             <div class="bottom-center">
                 <div class="name">
-                    <label for="nom">Nom :</label>
-                    <input type="text" id="nom" name="nom" required placeholder="ex: Ambroise Croizat">
+                    <label for="nom">Nom (*)</label>
+                    <input type="text" id="nom" name="nom" required>
                 </div>
                 <div class="email">
-                    <label for="email">Email :</label>
-                    <input type="email" id="email" name="email" required placeholder="exemple@afpa.fr">
+                    <label for="email">Email (*)</label>
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div class="tel">
-                    <label for="telephone">Numéro de téléphone :</label>
-                    <input type="tel" id="telephone" name="telephone" placeholder="0972723936" required>
+                    <label for="telephone">Numéro de téléphone * information obligatoire</label>
+                    <input type="tel" id="telephone" name="telephone" required>
                 </div>
                 <div class="region">
-                    <label for="region">Région d'origine :</label>
+                    <label for="region">Région d'origine</label>
                     <select id="region" name="region" required>
-                        <option value="">Sélectionner une région</option>
+                        <option value=""> </option>
                         <option value="auvergne-rhone-alpes">Auvergne-Rhône-Alpes</option>
                         <option value="bretagne">Bretagne</option>
                         <option value="centre-val-de-loire">Centre-Val de Loire</option>
@@ -83,32 +85,31 @@
                     </select>
                 </div>
             </div>
-            <div class="right-top">
-                <fieldset>
+
+                <div class="right-top">
+                    <fieldset class="gridform2">
                     <legend>Ses modalités d'apprentissage privilégiées</legend>
                     <label for="présentiel">
-                        En centre de formation (présentiel)
-                        <input type="radio" id="présentiel" name="modalités" value="présentiel" required>
+                        • En centre de formation (présentiel)
                     </label>
-                    <br>
+                    <input type="radio" id="présentiel" name="modalités" value="présentiel" required>
                     <label for="distanciel">
-                        100% à distance
-                        <input type="radio" id="distanciel" name="modalités" value="distanciel" required>
+                        • 100% à distance
                     </label>
-                    <br>
+                    <input type="radio" id="distanciel" name="modalités" value="distanciel" required>
                     <label for="alternance">
-                        En contrat d'alternance avec l'entreprise
-                        <input type="radio" id="alternance" name="modalités" value="alternance" required>
+                        • En contrat d'alternance avec l'entreprise
                     </label>
-                    <br>
+                    <input type="radio" id="alternance" name="modalités" value="alternance" required>
                     <label for="autre2">
-                        Sans préférence
-                        <input type="radio" id="autre2" name="modalités" value="autre2" required>
+                        • Sans préférence
                     </label>
-                </fieldset>
-            </div>
-            <button>Envoyer</button>
+                    <input type="radio" id="autre2" name="modalités" value="autre2" required>
+            </fieldset>
+
+            
         </form>
+        <button class="send">Envoyer</button>
     </main>
 </body>
 

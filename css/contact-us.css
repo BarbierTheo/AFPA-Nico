@@ -50,10 +50,12 @@ fieldset {
     border: none;
 }
 
+/*              CONTACTEZ-NOUS               */
+
 .mid-center {
     display: flex;
     margin: 2rem;
-    padding: 3rem;
+    padding: 3rem 2rem;
     background: linear-gradient(90deg, #84AD21 0%, #FFFFFF 100%);
     border-radius: 3rem;
     box-shadow: 0.125rem 0.125rem 0.3125rem rgb(17, 17, 17);
@@ -62,27 +64,30 @@ fieldset {
 
 strong {
     font-family: Arial black, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 strong span {
     display: block;
 }
 
+/*                   VOTRE SITUATION                 */
+
 .top-left {
-    margin: 2rem;
-    padding: 1.5rem;
+    padding: 1rem;
     background: linear-gradient(180deg, #84AD21 0%, #FFFFFF 100%);
     border-radius: 3rem;
     font-family: gotham black, Helvetica, sans-serif;
-    font-size: 2rem;
-
+    font-size: 1.5rem;
+    width: 24rem;
 }
 
-fieldset.gridform1{
+fieldset.gridform1 {
     display: grid;
-    grid-template-columns: 30rem 0.5fr;
+    grid-template-columns: 19rem 2rem;
     gap: 1rem;
+
+
 }
 
 input[type="radio"] {
@@ -91,17 +96,106 @@ input[type="radio"] {
     height: 2rem;
     border: 0.1rem solid black;
     background-color: white;
+    justify-self: end;
 }
 
 input[type="radio"]:checked {
     background-color: #000;
 }
 
-input[type="radio"]#demandeurd-emploi{;
+.top-left>fieldset>legend {
+    margin: 0 5rem 2rem;
 }
 
-.top-left>fieldset>legend {}
+.top-left>fieldset>label {
+    margin-left: -1rem;
+}
 
-.top-left>fieldset>label{
+/*                  NOM EMAIL NUM REGION                 */
 
+.bottom-center {
+    margin: 2rem;
+    padding: 1.5rem;
+    border: white solid 0.2rem;
+    border-radius: 3rem;
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    height: 15rem;
+    width: 25rem;
+    line-height: 4rem;
+}
+
+input[type="text"] {
+    width: 10%;
+    margin-left: 1rem;
+}
+
+input[type="email"] {
+    width: 10%;
+    margin-left: 1rem;
+}
+
+input[type="tel"] {
+    width: 10%;
+    margin-left: 1rem;
+}
+
+select {
+    width: 10%;
+    margin-left: 1rem;
+    font-family: sans-serif;
+}
+
+.tel>label {
+    width: 19rem;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+/*              MODALITES                */
+
+.right-top {
+    padding: 1rem;
+    background: linear-gradient(180deg, #84AD21 0%, #FFFFFF 100%);
+    border-radius: 3rem;
+    font-family: gotham black, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    width: 24rem;
+    height: 19.5rem;
+}
+
+fieldset.gridform2 {
+    display: grid;
+    grid-template-columns: 18rem 2rem;
+    grid-template-rows: 2rem 0rem 3.5rem;
+    gap: 1.8rem;
+    line-height: 1.5rem;
+}
+
+.right-top>fieldset>legend {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.right-top>fieldset>label {
+    margin-left: -1rem;
+
+}
+
+input[type="radio"]#distanciel {
+    border: none;
+    background-color: transparent;
+}
+
+/*          BOUTON ENVOYER           */
+
+.send {
+    margin-top: 5rem;
+    font-family:Arial black, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background: none;
+    border: white solid 0.2rem;
+    padding: 1.5rem 8rem;
+    border-radius: 3rem;
+    cursor: pointer;
 }
