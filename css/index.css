@@ -39,3 +39,82 @@ nav>a {
     border-radius: 48px;
     font-size: 1.1rem;
 }
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right{
+    margin: 3rem;
+    width: 50%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1{
+    font-family: gotham black, sans-serif;
+    color: white;
+    font-size: 4.5rem;
+    margin-top: 8rem;
+    text-transform: capitalize;
+}
+
+h2{
+    font-family: gotham black, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-top: -1.5rem;
+}
+
+.cta{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    justify-content: center;
+    border: white solid 0.15rem;
+}
+
+.cta>a{
+    text-decoration: none;
+    text-align: center;
+    font-family: gotham black, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    -webkit-text-stroke: black 0.07rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer>h3{
+    font-family: gotham black, sans-serif;
+    color: white;
+    width: 10%;
+    font-size: 1.3rem;
+    -webkit-text-stroke: black 0.05rem;
+}
+
+.logo-partners{
+    display: flex;
+    flex-direction: row;
+    padding: 0.3rem 0;
+    background-color: #84AD21;
+    max-width: 40%;
+    margin: 1rem 0;
+    border-radius: 2rem;
+}
+
+.logo-partners>img{
+    margin: 0 2rem;
+    width: 2.5rem;
+}
