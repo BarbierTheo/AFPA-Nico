@@ -40,26 +40,39 @@ nav>a {
     font-size: 1.1rem;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 fieldset {
     border: none;
 }
 
+
+/* MAIN GRID */
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%; 
+    justify-content: center;
+    gap: 1rem;             
+    height: 80vh;
+    margin: 2rem;
+}
+
+
 /*              CONTACTEZ-NOUS               */
 
 .mid-center {
-    display: flex;
-    margin: 2rem;
-    padding: 3rem 2rem;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.cell-mid-center{
+    margin: 0rem;
+    padding:  2rem;
     background: linear-gradient(90deg, #84AD21 0%, #FFFFFF 100%);
     border-radius: 3rem;
     box-shadow: 0.125rem 0.125rem 0.3125rem rgb(17, 17, 17);
-
+    text-align: center;
 }
 
 strong {
@@ -74,20 +87,24 @@ strong span {
 /*                   VOTRE SITUATION                 */
 
 .top-left {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.cell-top-left{
     padding: 1rem;
     background: linear-gradient(180deg, #84AD21 0%, #FFFFFF 100%);
     border-radius: 3rem;
     font-family: gotham black, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 24rem;
+    overflow: hidden;
 }
 
 fieldset.gridform1 {
     display: grid;
     grid-template-columns: 19rem 2rem;
     gap: 1rem;
-
-
 }
 
 input[type="radio"] {
@@ -113,13 +130,17 @@ input[type="radio"]:checked {
 
 /*                  NOM EMAIL NUM REGION                 */
 
-.bottom-center {
-    margin: 2rem;
+.bottom-center{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.cell-bottom-center{
     padding: 1.5rem;
     border: white solid 0.2rem;
     border-radius: 3rem;
     font-family: Arial black, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     height: 15rem;
     width: 25rem;
     line-height: 4rem;
@@ -155,31 +176,35 @@ select {
 /*              MODALITES                */
 
 .right-top {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.cell-right-top{
     padding: 1rem;
     background: linear-gradient(180deg, #84AD21 0%, #FFFFFF 100%);
     border-radius: 3rem;
     font-family: gotham black, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    width: 24rem;
-    height: 19.5rem;
+    font-size: 1.3rem;
+    height: 16.5rem;
+    width: 80%;
 }
 
 fieldset.gridform2 {
     display: grid;
-    grid-template-columns: 18rem 2rem;
+    grid-template-columns: 17rem 2rem;
     grid-template-rows: 2rem 0rem 3.5rem;
-    gap: 1.8rem;
+    gap: 1.3rem;
     line-height: 1.5rem;
 }
 
-.right-top>fieldset>legend {
+.cell-right-top>fieldset>legend {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
-.right-top>fieldset>label {
+.cell-right-top>fieldset>label {
     margin-left: -1rem;
-
 }
 
 input[type="radio"]#distanciel {
@@ -198,4 +223,10 @@ input[type="radio"]#distanciel {
     padding: 1.5rem 8rem;
     border-radius: 3rem;
     cursor: pointer;
+
+}
+
+.grid-send{
+    grid-column: 3;
+    grid-row: 2;
 }

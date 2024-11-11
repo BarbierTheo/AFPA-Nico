@@ -23,93 +23,105 @@
         </nav>
     </header>
     <main>
-        <div class="mid-center">
-            <strong>
-                Contactez <span>nous</span>
-            </strong>
-        </div>
-        <form action="" method="get">
-            <div class="top-left">
-                <fieldset class="gridform1">
-                    <legend>Votre situation</legend>
-                    <label for="demandeurd-emploi">
-                        • Demandeur d'emploi,
-                    </label>
-                    <input type="radio" id="demandeurd-emploi" name="situation" value="demandeurd-emploi" required>
-                    <label for="salarié">
-                        • Salarié en transition professionnelle,
-                    </label>
-                    <input type="radio" id="salarié" name="situation" value="salarié" required>
-                    <label for="autre">
-                        • Autre
-                    </label>
-                    <input type="radio" id="autre" name="situation" value="autre" required>
-
-                </fieldset>
-            </div>
-
-            <div class="bottom-center">
-                <div class="name">
-                    <label for="nom">Nom (*)</label>
-                    <input type="text" id="nom" name="nom" required>
-                </div>
-                <div class="email">
-                    <label for="email">Email (*)</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="tel">
-                    <label for="telephone">Numéro de téléphone * information obligatoire</label>
-                    <input type="tel" id="telephone" name="telephone" required>
-                </div>
-                <div class="region">
-                    <label for="region">Région d'origine</label>
-                    <select id="region" name="region" required>
-                        <option value=""> </option>
-                        <option value="auvergne-rhone-alpes">Auvergne-Rhône-Alpes</option>
-                        <option value="bretagne">Bretagne</option>
-                        <option value="centre-val-de-loire">Centre-Val de Loire</option>
-                        <option value="corsica">Corse</option>
-                        <option value="grand-est">Grand Est</option>
-                        <option value="hauts-de-france">Hauts-de-France</option>
-                        <option value="ile-de-france">Île-de-France</option>
-                        <option value="normandie">Normandie</option>
-                        <option value="nouvelle-aquitaine">Nouvelle-Aquitaine</option>
-                        <option value="occitanie">Occitanie</option>
-                        <option value="pays-de-la-loire">Pays de la Loire</option>
-                        <option value="provence-alpes-cote-d-azur">Provence-Alpes-Côte d'Azur</option>
-                        <option value="guadeloupe">Guadeloupe</option>
-                        <option value="martinique">Martinique</option>
-                        <option value="guyane">Guyane</option>
-                        <option value="la-reunion">La Réunion</option>
-                        <option value="mayotte">Mayotte</option>
-                    </select>
+        <div class="main-grid">
+            <div class="mid-center">
+                <div class="cell-mid-center">
+                    <strong>
+                        Contactez <span>nous</span>
+                    </strong>
                 </div>
             </div>
+            <form action="" method="get">
+                <div class="top-left">
+                    <div class="cell-top-left">
+                        <fieldset class="gridform1">
+                            <legend>Votre situation</legend>
+                            <label for="demandeurd-emploi">
+                                • Demandeur d'emploi,
+                            </label>
+                            <input type="radio" id="demandeurd-emploi" name="situation" value="demandeurd-emploi"
+                                required>
+                            <label for="salarié">
+                                • Salarié en transition professionnelle,
+                            </label>
+                            <input type="radio" id="salarié" name="situation" value="salarié" required>
+                            <label for="autre">
+                                • Autre
+                            </label>
+                            <input type="radio" id="autre" name="situation" value="autre" required>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <div class="bottom-center">
+                    <div class="cell-bottom-center">
+                        <div class="name">
+                            <label for="nom">Nom (*)</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        <div class="email">
+                            <label for="email">Email (*)</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="tel">
+                            <label for="telephone">Numéro de téléphone * information obligatoire</label>
+                            <input type="tel" id="telephone" name="telephone" required>
+                        </div>
+                        <div class="region">
+                            <label for="region">Région d'origine</label>
+                            <select id="region" name="region" required>
+                                <option value=""> </option>
+                                <option value="auvergne-rhone-alpes">Auvergne-Rhône-Alpes</option>
+                                <option value="bretagne">Bretagne</option>
+                                <option value="centre-val-de-loire">Centre-Val de Loire</option>
+                                <option value="corsica">Corse</option>
+                                <option value="grand-est">Grand Est</option>
+                                <option value="hauts-de-france">Hauts-de-France</option>
+                                <option value="ile-de-france">Île-de-France</option>
+                                <option value="normandie">Normandie</option>
+                                <option value="nouvelle-aquitaine">Nouvelle-Aquitaine</option>
+                                <option value="occitanie">Occitanie</option>
+                                <option value="pays-de-la-loire">Pays de la Loire</option>
+                                <option value="provence-alpes-cote-d-azur">Provence-Alpes-Côte d'Azur</option>
+                                <option value="guadeloupe">Guadeloupe</option>
+                                <option value="martinique">Martinique</option>
+                                <option value="guyane">Guyane</option>
+                                <option value="la-reunion">La Réunion</option>
+                                <option value="mayotte">Mayotte</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="right-top">
-                    <fieldset class="gridform2">
-                    <legend>Ses modalités d'apprentissage privilégiées</legend>
-                    <label for="présentiel">
-                        • En centre de formation (présentiel)
-                    </label>
-                    <input type="radio" id="présentiel" name="modalités" value="présentiel" required>
-                    <label for="distanciel">
-                        • 100% à distance
-                    </label>
-                    <input type="radio" id="distanciel" name="modalités" value="distanciel" required>
-                    <label for="alternance">
-                        • En contrat d'alternance avec l'entreprise
-                    </label>
-                    <input type="radio" id="alternance" name="modalités" value="alternance" required>
-                    <label for="autre2">
-                        • Sans préférence
-                    </label>
-                    <input type="radio" id="autre2" name="modalités" value="autre2" required>
-            </fieldset>
-
-            
-        </form>
-        <button class="send">Envoyer</button>
+                    <div class="cell-right-top">
+                        <fieldset class="gridform2">
+                            <legend>Ses modalités d'apprentissage privilégiées</legend>
+                            <label for="présentiel">
+                                • En centre de formation (présentiel)
+                            </label>
+                            <input type="radio" id="présentiel" name="modalités" value="présentiel" required>
+                            <label for="distanciel">
+                                • 100% à distance
+                            </label>
+                            <input type="radio" id="distanciel" name="modalités" value="distanciel" required>
+                            <label for="alternance">
+                                • En contrat d'alternance avec l'entreprise
+                            </label>
+                            <input type="radio" id="alternance" name="modalités" value="alternance" required>
+                            <label for="autre2">
+                                • Sans préférence
+                            </label>
+                            <input type="radio" id="autre2" name="modalités" value="autre2" required>
+                        </fieldset>
+                    </div>
+                </div>
+            </form>
+            <div class="grid-send">
+                <button class="send"> Envoyer
+                </button>
+            </div>
+        </div>
     </main>
 </body>
 
@@ -118,9 +130,9 @@
 
 <!-- Nav bar -->
 <!-- 5 blocs, 3 formulaires, un bouton
-            - Contactez-nous, bloc texte, background dégueu
-            - Votre situation, form radio, background dégueu
-            - Modalités, form radio, background dégueu
+            - Contactez-nous, bloc texte, background dégradé
+            - Votre situation, form radio, background dégradé
+            - Modalités, form radio, background dégradé
             - Infos, form name, text, num, location, 0 background mais stroke
             - Bouton envoyer, 0 background mais stroke
             -->
