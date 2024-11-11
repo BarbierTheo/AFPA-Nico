@@ -3,7 +3,18 @@
     padding: 0;
 }
 
-..logo {
+body {
+    background-image: url(../img/bg/formation-bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0 5rem;
+    box-sizing: border-box;
+    background-color: #418FDE;
+}
+
+.logo {
     float: left;
     margin-top: 0.2rem;
     margin-left: 10rem;

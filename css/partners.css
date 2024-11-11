@@ -47,8 +47,8 @@ h1{
     color: white;
     -webkit-text-stroke: 0.07rem black;
     display: flex;
-    width: 40%;
-    margin: 3rem;
+    width: 30%;
+    margin: 5rem;
 }
 
 .AKKAright{
@@ -56,15 +56,17 @@ h1{
     position: relative;
     bottom: 15rem;
     margin: 5rem;
-    width: 20%;
+    margin-top: 5rem;
 }
 
 .WISYbottom{
     margin: 2rem;
     margin-left: 15rem;
+    margin-top: 10rem;
+    
 }
 
 div>img{
-    width: 15rem;
+    width: 20rem;
     height: auto;
 }
