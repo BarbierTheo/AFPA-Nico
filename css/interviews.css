@@ -151,7 +151,7 @@ h1 {
 }
 
 .midtext {
-    
+
     margin-top: -11rem;
 }
 
@@ -213,4 +213,51 @@ h1 {
     top: -1.5rem;
     left: -1rem;
 
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 50%;
+    }
+
+    .logo {
+        float: none;
+        display: flex;
+        margin: 3rem 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*          MAIN          */
+
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 5rem;
+    }
+
+    .left,
+    .right,
+    .mid {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
 }

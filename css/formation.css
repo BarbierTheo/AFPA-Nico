@@ -74,11 +74,11 @@ h1 {
     width: 100%;
 }
 
-p{
+p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
-    
+
 }
 
 .left {
@@ -115,7 +115,7 @@ p{
     color: white;
 }
 
-span{
+span {
     display: block;
     margin-left: 3rem;
     margin-top: 2rem;
@@ -125,37 +125,46 @@ span{
 
 @media (max-width: 1200px) {
     html {
-      font-size: 14px;
+        font-size: 14px;
     }
-  }
+}
 
-  @media (max-width: 1050px) {
+@media (max-width: 1050px) {
 
-    nav{
+    nav {
         flex-direction: column;
         gap: 1rem;
-        max-width: 30%;
+        max-width: 50%;
     }
 
-/*          MAIN          */
+    .logo {
+        float: none;
+        display: flex;
+        margin: 3rem 0;
+        justify-content: center;
+        align-items: center;
+    }
 
-h1{
-    width:80% ;
+    /*          MAIN          */
+
+    h1 {
+        width: 80%;
+    }
+
+    .maincontainer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .right,
+    .left {
+        width: 100%;
+    }
 }
 
-.maincontainer{
-    flex-direction: column;
-    gap: 2rem;
-}
 
-.right, .left {
-    width: 100%;
-}
-  }
-
-  
 @media (max-width: 600px) {
     html {
-      font-size: 12px;
+        font-size: 12px;
     }
 }
